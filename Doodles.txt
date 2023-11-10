@@ -1,0 +1,89 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> help
+Type help() for interactive help, or help(object) for help about object.
+>>> 2x+3 =
+  File "<stdin>", line 1
+    2x+3 =
+    ^
+SyntaxError: invalid decimal literal
+>>> x = 3
+>>> 3x
+  File "<stdin>", line 1
+    3x
+    ^
+SyntaxError: invalid decimal literal
+>>> 3*x
+9
+>>> 4*x%
+  File "<stdin>", line 1
+    4*x%
+        ^
+SyntaxError: invalid syntax
+>>> 4*x%10
+2
+>>> Bite my shiny metal ass = b
+  File "<stdin>", line 1
+    Bite my shiny metal ass = b
+         ^^
+SyntaxError: invalid syntax
+>>> b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b' is not defined
+>>> bite_my_skiny_metal_ass = b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b' is not defined
+>>> b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b' is not defined
+>>> bitemyshinymetalass = b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b' is not defined
+>>> b = 1
+>>> Bitemyshinymetalass = b
+>>> b
+1
+>>> 1
+1
+>>> bitemyshinymetalass
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'bitemyshinymetalass' is not defined. Did you mean: 'Bitemyshinymetalass'?
+>>> y
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'y' is not defined
+>>> Bitemyshinymetalass
+1
+>>> b
+1
+>>> b = Bitemyshinymetalass
+>>> b
+1
+>>> b2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'b2' is not defined. Did you mean: 'b'?
+>>> b=2
+>>> b
+2
+>>> Bitemyshinymetalass
+1
+>>> Bitemyshinymetalass
+1
+>>> Bitemyshinymetalass
+1
+>>> Bitemyshinymetalass
+1
+>>> Bitemyshinymetalass
+1
+>>> Bitemyshinymetalass
+1
+>>> z = str("Bitemyshinymetalass")
+>>> z
+'Bitemyshinymetalass'
+>>>

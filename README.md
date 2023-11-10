@@ -11,3 +11,6 @@ learn things by doing things
 6. upload your changes to github
 
 : ) 
+
+extra learnings:
+- what are data types? https://www.w3schools.com/python/python_datatypes.asp

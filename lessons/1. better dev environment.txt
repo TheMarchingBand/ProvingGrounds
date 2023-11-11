@@ -1,0 +1,30 @@
+# better dev environment
+
+last time we talked about how simple our development environment (aka. dev env) can be and still work. 
+
+today lets make our lives a little better with some better tools. 
+
+an IDE (integrated development environment) will do lots of small things for us. There is no "best" IDE just the one you learn and get used to.
+
+a few options to explore for an IDE would be:
+- notepad++
+- atom
+- pycharm
+
+I've used all of them and would recommend having something like notepad++ or atom in general as a better text file editor, but for an IDE for python I recommend PyCharm. It has some really great python things built in. I'm sure you could configure the other two to be _similar_ but probably on a fresh install of either pycharm will be easier (and is an industry standard too).
+
+# how to not break your computer 
+
+So it is actually pretty hard to do anything too painful, but there's one thing that's specific to python that we need to talk about before going too deep in. Virtual environments. 
+
+Basically, for programming we'll eventually need to pull in a variety of differnt packages (the imports at the top of a python project can be built into the language or you need install them first!) think things like pandas. In python managing packages and versions can be tough. 
+
+
+how do we install packages in python? 
+- PIP (short for PIP installed packages)
+
+but there's a catch, it installs it to your computer itself and can mess with you as you move on to other python projects that use a different version or have different requirements. It can get messy, but there's an easy way to solve this. Virtual environments.
+
+A virtual env + PIP will be how we manage our packages we need to install for our python applications to run (or better known as the app's dependencies).
+
+I have an old repo describing how i got it to work on windows awhile ago - https://github.com/matt-fevold/dm-tools
